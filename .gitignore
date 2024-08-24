@@ -1,0 +1,31 @@
+# General node_modules
+node_modules/
+
+# Server-specific files
+/server/.env
+
+# Next.js specific files and folders
+.next/
+out/
+build/
+.env.local
+.env.development.local
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Other files you might want to ignore
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Mac system files
+*.DS_Store
